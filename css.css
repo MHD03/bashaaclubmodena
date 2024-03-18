@@ -1,3 +1,6 @@
+
+
+
 :root {
   --color-1: #2c3e50;
   --color-2: #ffc400;
@@ -24,12 +27,14 @@ body {
   align-items: center;
   justify-content: center;
   background: url('background.png') no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover; /* Utiliser background-size: cover */
   color: #fff;
   font-family: 'Raleway', sans-serif;
   position: relative;
   margin: 0; /* Remove default margin */
 }
+
+
 
 .container {
   text-align: center;
@@ -88,7 +93,7 @@ body {
 /* ... Loader styles ... */
 
 
-.button {
+.button { 
   font-size: 130%;
   position: relative;
   display: flex;

@@ -14,6 +14,13 @@
 </style>
 </head>
 <style>
+.logo img {
+  max-width: 180px; /* Définissez la largeur maximale souhaitée pour le logo */
+  height: auto;
+  margin-top: 40px;
+}
+
+
   #load div, #club div, #modena div {
     font-size: 2em; /* Ajustez la taille de la police selon vos besoins */
     color: white;
@@ -51,7 +58,11 @@
 
   <div class="container" id="myDiv">
 
-    <div class="button-container">
+      <div class="logo">
+        <img src="Sans titre-1.png" alt="">
+      </div>
+
+    <div class="button-container" style="margin-top: 60px;">
       <a href="cocktail.html" class="button">
         <span style="color: rgb(0, 0, 0);" class="submit">Menu Cocktail</span>
         <span class="loading"><i class="fa fa-refresh"></i></span>
@@ -71,7 +82,7 @@
       </a>
     </div>
 
-    <nav class="social" style="margin-top: 15%;">
+    <nav class="social" style="margin-top: 0%;">
       <ul>
         <li><a href="https://www.instagram.com/bashaaclubmodena/" style="color: white;"><i class="fa fa-instagram"></i>&nbsp;&nbsp;&nbsp;Instagram</a></li>
         <li><a style="color: white;" href="tel:05961339636"><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;Phone</a></li>
